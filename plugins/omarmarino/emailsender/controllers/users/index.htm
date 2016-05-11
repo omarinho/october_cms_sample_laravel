@@ -1,0 +1,13 @@
+<SCRIPT>
+       function change_button() {
+        document.getElementById('link').innerHTML = "<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sending now... please wait....</b>";
+       }
+</SCRIPT>
+
+<br clear="all"/>
+<?php if ($sending == 'no') :?>
+<div id='link'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="?sendnow=YES" onclick="change_button()" class="btn btn-lg btn-info" role="button">Send the email to ALL users now!</a></div>
+<?php else: ?>
+<b style="color:brown;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finished! All email were sent !</b>
+<?php endif; ?>
+

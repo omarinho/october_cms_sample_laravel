@@ -1,0 +1,35 @@
+1462281720s:982:"a:2:{s:5:"mtime";i:1462246352;s:7:"content";s:928:"<form
+    data-request="onRegister">
+    <div class="form-group">
+        <label for="registerName">Full Name</label>
+        <input
+            name="name"
+            type="text"
+            class="form-control"
+            id="registerName"
+            placeholder="Enter your full name" />
+    </div>
+
+    <div class="form-group">
+        <label for="registerEmail">Email</label>
+        <input
+            name="email"
+            type="email"
+            class="form-control"
+            id="registerEmail"
+            placeholder="Enter your email" />
+    </div>
+
+    <div class="form-group">
+        <label for="registerPassword">Password</label>
+        <input
+            name="password"
+            type="password"
+            class="form-control"
+            id="registerPassword"
+            placeholder="Choose a password" />
+    </div>
+
+    <button type="submit" class="btn btn-default">Register</button>
+</form>
+";}";

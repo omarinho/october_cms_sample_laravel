@@ -1,0 +1,35 @@
+1462282574s:1718:"a:6:{s:5:"mtime";i:1462235707;s:7:"content";s:751:"title = "PHP Technical Assessment"
+url = "/"
+layout = "default"
+description = "Welcome to my test app :)"
+is_hidden = 0
+meta_title = "PHP Technical Assessment"
+meta_description = "A way for testing my PHP skills."
+==
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail text-center">
+            <br />
+            <div class="caption">
+                <p>
+                    <a href="{{ 'account'|page }}" class="btn btn-lg btn-info" role="button">Register a new user</a>
+                    <br clear="all"/><br/><br/>
+                    <a href="/admin" class="btn btn-lg btn-info" role="button" target="_blank">Go to backend</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:8:{s:5:"title";s:24:"PHP Technical Assessment";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:11:"description";s:25:"Welcome to my test app :)";s:9:"is_hidden";s:1:"0";s:10:"meta_title";s:24:"PHP Technical Assessment";s:16:"meta_description";s:32:"A way for testing my PHP skills.";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:534:"<div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail text-center">
+            <br />
+            <div class="caption">
+                <p>
+                    <a href="{{ 'account'|page }}" class="btn btn-lg btn-info" role="button">Register a new user</a>
+                    <br clear="all"/><br/><br/>
+                    <a href="/admin" class="btn btn-lg btn-info" role="button" target="_blank">Go to backend</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>";}";

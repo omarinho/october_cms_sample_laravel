@@ -1,0 +1,13 @@
+title = "Account"
+url = "/account/:code?"
+layout = "default"
+description = "Registration form"
+is_hidden = 0
+meta_title = "Account Manager"
+meta_description = "Front-end account manager for users"
+
+[account]
+redirect = "user-has-been-registered"
+paramCode = "code"
+==
+{% component 'account' %}
