@@ -23,8 +23,8 @@ class Plugin extends PluginBase
 
 		//Send the email
 		$url = 'https://api.sendgrid.com/';
-		$user = 'omarinho';
-		$pass = 'omar52hjb';
+		$user = '******';
+		$pass = '******';
 		
 		$json_string = array(
   			'filters' => array('templates' => array('settings' => array('enable' => 1, 'template_id' => 'aee63675-ce8d-4c46-9948-93141e040b80'))),
